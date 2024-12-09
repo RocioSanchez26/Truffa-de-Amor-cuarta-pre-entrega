@@ -186,9 +186,191 @@ img {
 
 .tarjeta {
   width: 330px;
-  height: 400px;
+  height: 350px;
+  max-width: 100%;
   border-radius: 7px;
   overflow: hidden;
   border: 2px solid #c10049;
   margin: 20px;
+  text-decoration: none;
+  text-align: center;
+  box-shadow: 0px 2px 4px rgba(193, 0, 73, 0.5);
+}
+
+.imj-card {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+#cora-rojo {
+  width: 138px;
+  height: 180px;
+  margin-top: 20px;
+  align-items: center;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+}
+
+p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: black;
+}
+
+.text-publi1 {
+  margin-top: 50px;
+}
+
+#caja-oso {
+  width: 280px;
+  height: 190px;
+  margin-top: 20px;
+}
+
+.text-publi2 {
+  margin-top: 40px;
+}
+
+#frutos-rojos {
+  width: 250px;
+  height: 200px;
+  margin-top: 20px;
+}
+
+.text-publi3 {
+  margin-top: 30px;
+}
+
+#submarino {
+  width: 220px;
+  height: 170px;
+  margin-top: 20px;
+}
+
+.text-publi4 {
+  margin-top: 60px;
+}
+
+#cafe-blend {
+  width: 160px;
+  height: 210px;
+  margin-top: 20px;
+}
+
+.text-publi5 {
+  margin-top: 20px;
+}
+
+#tableta-limon {
+  width: 170px;
+  height: 220px;
+  margin-top: 10px;
+}
+
+.text-publi6 {
+  margin-top: 20px;
+}
+
+#bombon-surti {
+  width: 300px;
+  height: 170px;
+  margin-top: 20px;
+}
+
+.text-publi7 {
+  margin-top: 60px;
+}
+
+#torta-charol {
+  width: 140px;
+  height: 200px;
+  margin-top: 20px;
+}
+
+.text-publi8 {
+  margin-top: 30px;
+}
+
+#paleta-fruta {
+  width: 80px;
+  height: 190px;
+  margin-top: 20px;
+}
+
+.text-publi9 {
+  margin-top: 40px;
+}
+
+#lata-bombon {
+  width: 200px;
+  height: 190px;
+  margin-top: 20px;
+}
+
+.text-publi10 {
+  margin-top: 40px;
+}
+
+#tableta-berries {
+  width: 180px;
+  height: 230px;
+}
+
+.text-publi11 {
+  margin-top: 20px;
+}
+
+#lata-ositos {
+  width: 250px;
+  height: 200px;
+  margin-top: 20px;
+}
+
+.text-publi12 {
+  margin-top: 30px;
+}
+
+#paleta-pistacho {
+  width: 85px;
+  height: 200px;
+  margin-top: 20px;
+}
+
+.text-publi13 {
+  margin-top: 30px;
+}
+
+#masita-fina {
+  width: 170px;
+  height: 200px;
+  margin-top: 20px;
+}
+
+.text-publi14 {
+  margin-top: 30px;
+}
+
+#tableta-almen {
+  width: 160px;
+  height: 210px;
+}
+
+.text-publi15 {
+  margin: 40px;
+}
+
+#macaronss {
+  width: 290px;
+  height: 60px;
+  margin-top: 100px;
+}
+
+.text-publi16 {
+  margin-top: 90px;
 }/*# sourceMappingURL=estilos.css.map */
