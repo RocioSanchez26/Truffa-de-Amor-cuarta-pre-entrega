@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Farsan&family=Merienda:wght@300;400;500;600;700&family=Nunito:wght@300;400;500&family=Roboto:wght@300;400;500&display=swap');
@@ -244,7 +245,7 @@ p{
 }
 
 .text-publi1{
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 #caja-oso{
@@ -264,7 +265,7 @@ p{
 }
 
 .text-publi3{
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 #submarino{
@@ -274,7 +275,7 @@ p{
 }
 
 .text-publi4{
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 #cafe-blend{
@@ -288,8 +289,8 @@ p{
 }
 
 #tableta-limon{
-    width: 170px;
-    height: 220px;
+    width: 150px;
+    height: 190px;
     margin-top: 10px;
 }
 
@@ -336,8 +337,8 @@ p{
 }
 
 #tableta-berries{
-    width: 180px;
-    height: 230px;
+    width: 160px;
+    height: 200px;
 }
 
 .text-publi11{
@@ -375,11 +376,11 @@ p{
 }
 
 #tableta-almen{
-    width: 160px;
-    height: 210px;
+    width: 140px;
+    height: 190px;
 }
 .text-publi15{
-    margin: 40px;
+    margin: 25px;
 }
 
 #macaronss{
@@ -390,4 +391,43 @@ p{
 
 .text-publi16{
     margin-top: 90px;
+}
+
+/* Footer fijo */
+.footer-fijo {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%; /* Se extiende por todo el ancho */
+    background-color: #c30047;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 1000; /* Asegura que esté sobre el contenido */
+}
+
+/* Footer - Iconos sociales */
+.social-footer {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icon {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    transition: transform 0.2s;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
+
+/* Responsividad */
+@media (max-width: 576px) {
+    .social-footer {
+        flex-direction: column; /* Apila los iconos verticalmente */
+        gap: 10px;
+    }
 }
