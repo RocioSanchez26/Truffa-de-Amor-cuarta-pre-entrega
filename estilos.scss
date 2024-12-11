@@ -393,41 +393,106 @@ p{
     margin-top: 90px;
 }
 
-/* Footer fijo */
-.footer-fijo {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%; /* Se extiende por todo el ancho */
-    background-color: #c30047;
-    color: white;
+
+/* -------------------------------------------------------Heladería-------------------------------------------------------------------- */
+
+h5{
+    font-size: 30px;
+    color: $color1;
+    font-weight: 800;
+    margin-top: 50px;
     text-align: center;
-    padding: 10px 0;
-    z-index: 1000; /* Asegura que esté sobre el contenido */
 }
 
-/* Footer - Iconos sociales */
-.social-footer {
+#helado-un-cuarto-kg{
+    max-width: 300px;
+}
+
+#helado-medio-kg{
+    max-width: 300px;
+}
+
+#helado-kg{
+    max-width: 300px;
+    text-align: right;
+}
+
+.card-containerh{
     display: flex;
     justify-content: center;
-    gap: 15px;
+    flex-wrap: wrap;
 }
 
-.social-icon {
-    color: white;
+.cards{
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    width: 450px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 20px;
+    border: 1px solid white;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-imageh{
+    height: 700px;
+    width: 300px;
+}
+
+/* --------------kilos helados--------------- */
+.tarjetah{
+    width: 450px;
+    height: 400px;
+    max-width: 100%;
+    border-radius: 7px;
+    overflow: hidden;
+    border: 2px solid $color4;
+    margin: 10px;
     text-decoration: none;
-    font-size: 24px;
-    transition: transform 0.2s;
+    text-align: center;
+    box-shadow: 0px 2px 4px rgba($color: #c10049, $alpha: 0.5);
 }
 
-.social-icon:hover {
-    transform: scale(1.2);
+#cuarto-helado{
+    width: 350px;
+    height: 300px;
+    margin-top: 20px;
+    align-items: center;
 }
 
-/* Responsividad */
-@media (max-width: 576px) {
-    .social-footer {
-        flex-direction: column; /* Apila los iconos verticalmente */
-        gap: 10px;
-    }
+#medio-helado{
+    width: 350px;
+    height: 300px;
+    margin-top: 20px;
+}
+
+#kilo-helado{
+    width: 350px;
+    height: 300px;
+    margin-top: 20px;
+}
+
+.fila-de-botones .boton{
+    width: 160px;
+    height: 50px;
+    font-size: 20px;
+}
+.fila-de-botones {
+    display: flex;
+    justify-content: center
+}
+
+.boton{
+    margin: 0 90px; /* Agrega un margen de 10px a todos los lados de cada botón */
+    padding: 10px 20px; /* Agrega relleno (padding) a los botones para espaciar el contenido */
+    margin-top: 10px;
+    background-color: #c10049; /* Color de fondo del botón */
+    font-weight: 600;
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Quita el borde del botón */
+    border-radius: 30px 30px 30px 30px;; /* Agrega bordes redondeados al botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    box-shadow: 0px 2px 4px rgba($color: #c10049, $alpha: 0.5);
 }
