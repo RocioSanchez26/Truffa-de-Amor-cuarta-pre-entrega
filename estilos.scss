@@ -394,7 +394,7 @@ p{
 }
 
 
-/* -------------------------------------------------------Heladería-------------------------------------------------------------------- */
+/* -------------------------------------------------------------Heladería-------------------------------------------------------------------- */
 
 h5{
     font-size: 30px;
@@ -495,4 +495,190 @@ h5{
     border-radius: 30px 30px 30px 30px;; /* Agrega bordes redondeados al botón */
     cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
     box-shadow: 0px 2px 4px rgba($color: #c10049, $alpha: 0.5);
+}
+/* -------------------publicaciones-helado-------------------- */
+
+
+#contei-publi-hela{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* height: 1600px; */
+    width: 80%;
+    background-color: $color4;
+    margin-top: 100px;
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr); */
+}
+
+#contei-publi-heladx{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* height: 500px; */
+    width: 80%;
+    background-color: $color4;
+    margin-top: 30px;
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr); */
+}
+
+#palet-frambu{
+    width: 190px;
+    height: 200px;
+    margin-top: 15px;
+}
+
+.text-publi1{
+    margin-top: 20px;
+}
+
+#choco-salsa{
+    width: 190px;
+    height: 200px;
+    margin-top: 15px;
+}
+
+.text-publi2{
+    margin-top: 20px;
+}
+
+#vaini-carame{
+    width: 190px;
+    height: 200px;
+    margin-top: 15px;
+}
+
+.text-publi3{
+    margin-top: 20px;
+}
+
+#limon-frambu{
+    width: 190px;
+    height: 200px;
+    margin-top: 15px;
+}
+
+.text-publi4{
+    margin-top: 20px;
+}
+
+#coco-mango{
+    width: 190px;
+    height: 200px;
+    margin-top: 15px;
+}
+
+.text-publi5{
+    margin-top: 20px;
+}
+
+#rosa-fruti{
+    width: 190px;
+    height: 200px;
+    margin-top: 15px;
+}
+
+.text-publi6{
+    margin-top: 20px;
+}
+
+#vaini-aranda{
+    width: 190px;
+    height: 200px;
+    margin-top: 15px;
+}
+
+.text-publi7{
+    margin-top: 20px;
+}
+
+#pop-caramel{
+    width: 190px;
+    height: 200px;
+    margin-top: 15px;
+}
+
+.text-publi8{
+    margin-top: 20px;
+}
+
+#cucu-choco{
+    width: 100px;
+    height: 200px;
+    margin-top: 15px;
+}
+
+.text-publi9{
+    margin-top: 40px;
+}
+
+#conito{
+    width: 100px;
+    height: 200px;
+    margin-top: 15px;
+}
+
+.text-publi10{
+    margin-top: 40px;
+}
+
+#cora-dulce{
+    width: 140px;
+    height: 200px;
+    margin-top: 15px;
+}
+
+.text-publi11{
+    margin-top: 40px;
+}
+
+#datil-almen{
+    width: 210px;
+    height: 200px;
+    margin-top: 15px;
+}
+
+.text-publi12{
+    margin-top: 30px;
+}
+
+#duo-almend{
+    width: 200px;
+    height: 200px;
+    margin-top: 15px;
+}
+
+.text-publi13{
+    margin-top: 30px;
+}
+
+#blan-cooki{
+    width: 200px;
+    height: 200px;
+    margin-top: 15px;
+}
+
+.text-publi14{
+    margin-top: 30px;
+}
+
+#palet-cora{
+    width: 150px;
+    height: 200px;
+    margin-top: 15px;
+}
+
+.text-publi15{
+    margin-top: 30px;
+}
+
+#duo-caramel{
+    width: 200px;
+    height: 200px;
+    margin-top: 15px;
+}
+
+.text-publi16{
+    margin-top: 30px;
 }
