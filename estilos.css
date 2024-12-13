@@ -987,6 +987,9 @@ h5 {
 
 /* -------------------------------------------------------iniciar sesion-------------------------------------------------------------- */
 .inicia {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: "Nunito", sans-serif;
   background: linear-gradient(to bottom, #c10049, #ffffff);
   min-height: 100vh;

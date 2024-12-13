@@ -30,7 +30,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: flex-start; /* Centrar en la parte superior */
-
 }
 
 .centered-container .logo .logoxd{
@@ -1009,6 +1008,9 @@ h5{
 /* -------------------------------------------------------iniciar sesion-------------------------------------------------------------- */
 
 .inicia{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: $fuente1;
     background: linear-gradient(to bottom, $color1, $color4);
     min-height: 100vh;
@@ -1016,6 +1018,7 @@ h5{
     align-items: center;
     justify-content: center;
 }
+
 
 .form2{
     padding: 50px 55px;
