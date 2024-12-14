@@ -1153,4 +1153,125 @@ h6 {
   font-size: 18px;
   font-weight: 500;
   color: black;
+}
+
+/* --------------------------------------------quienes somos------------------------------------------ */
+.casa {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+.container-fluid {
+  width: 100vw;
+}
+
+.custom-section {
+  background-color: #c10049; /* Color de fondo */
+  height: 700px;
+  color: white; /* Color del texto */
+  padding: 3rem 1rem; /* Espaciado interno */
+  width: 100vw;
+  overflow: hidden; /* Evitar desbordes */
+}
+
+.custom-section img {
+  max-width: 100%; /* Imagen responsiva */
+  height: 400px; /* Mantener proporción */
+  overflow: hidden;
+  display: block; /* Eliminar espacios blancos inesperados */
+}
+
+.text-container {
+  flex: 1; /* El texto ocupa un espacio igual */
+}
+
+.image-container {
+  flex: 1; /* La imagen ocupa un espacio igual */
+  text-align: center; /* Centra la imagen dentro de su contenedor */
+}
+
+@media (max-width: 768px) {
+  .custom-section {
+    flex-direction: column; /* En pantallas pequeñas, apilar contenido */
+  }
+}
+#hk {
+  color: #ffffff;
+  text-align: center;
+}
+
+.hl {
+  color: #ffffff;
+  text-align: center;
+}
+
+/* ------------------------------texto-cacao------------------------------------ */
+/* #3a2000 */
+.banner {
+  background-color: #3b2000; /* Color de fondo marrón */
+  color: #ff914d; /* Color del texto */
+  text-align: center; /* Centrado horizontal del texto */
+  padding: 1rem 0; /* Espaciado vertical */
+}
+
+.banner .h2e {
+  font-size: 2rem; /* Tamaño del texto */
+  font-weight: bold; /* Texto en negrita */
+  margin: 0; /* Elimina márgenes extra */
+}
+
+@media (max-width: 768px) {
+  .banner .h2e {
+    font-size: 1.5rem; /* Reduce tamaño del texto en pantallas pequeñas */
+  }
+}
+/* -------------------------------------cacao-fino------------------------------------------ */
+.custom-sectioon {
+  background-color: #593100; /* Color de fondo */
+  height: 500px;
+  padding: 3rem 1rem; /* Espaciado interno */
+  width: 100vw;
+  overflow: hidden; /* Evitar desbordes */
+}
+
+.custom-sectioon .imgh {
+  max-width: 100%; /* Imagen responsiva */
+  height: 400px; /* Mantener proporción */
+  overflow: hidden;
+  display: block; /* Eliminar espacios blancos inesperados */
+}
+
+/* -----------------------------------------panna-cotta------------------------------------------ */
+.custom-sectionx {
+  background-color: #7019fc; /* Color de fondo púrpura */
+  height: 600px;
+  color: white; /* Color del texto */
+  display: flex; /* Flexbox para alinear el contenido */
+  width: 100vw;
+  align-items: center; /* Centrado vertical */
+  padding: 2rem 0; /* Espaciado vertical */
+}
+
+.custom-sectionx #imgkk {
+  max-width: 480px; /* Imagen ocupa el 100% del ancho de su contenedor */
+  height: 530px; /* Mantiene la proporción */
+  -o-object-fit: cover;
+     object-fit: cover; /* Recorta la imagen si es necesario */
+}
+
+.custom-text {
+  padding: 2rem; /* Espaciado interno del texto */
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .custom-text {
+    text-align: center; /* Centrar texto en pantallas pequeñas */
+    padding: 1rem;
+  }
+}
+.p2 {
+  color: #ffffff;
 }/*# sourceMappingURL=estilos.css.map */
