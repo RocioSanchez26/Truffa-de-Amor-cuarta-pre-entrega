@@ -1,0 +1,224 @@
+<div class="custom-section d-flex flex-column flex-lg-row align-items-center justify-content-between">
+            
+    <div class="text-container text-center text-lg-start px-3">
+        <h1 class="fw-bold" id="hk">Amamos lo que Hacemos</h1>
+        <p class="hl">
+            En Truffa de Amor tenemos la convicción de querer hacer el mejor chocolate del mundo 
+            y para eso elegimos los mejores ingredientes, damos especial cuidado a cada paso del 
+            proceso y creamos nuevos productos para que nos sigas eligiendo.
+        </p>
+        </div>
+    
+        
+        <div class="image-container">
+        <img src="../multimedia/choco-relleno-frambu.png" alt="Chocolate delicioso">
+        </div>
+</div>
+
+<div class="container-fluid p-0">
+    <img src="../multimedia/tiendita11.jpg" class="img-fluid" alt="Imagen a todo ancho">
+</div>
+
+
+
+<div class="banner">
+    <h2 class="h2e">Variedades de cacao fino y orgánico. 100%</h2>
+</div>
+
+
+<div class="custom-sectioon d-flex flex-column flex-lg-row align-items-center justify-content-between">
+    
+    <div class="text-container text-center text-lg-start px-3">
+        <h1 class="fw-bold" id="hk">Nuestros productos Desde el Grano al Chocolate tienen un espíritu y una identidad única.</h1>
+        <p class="hl">
+            Hechos seleccionando las mejores materias primas y nuestra dedicación exclusiva, cada creación está llena de detalles.
+        </p>
+        </div>
+    
+        
+        <div class="image-container">
+        <img src="../multimedia/desde-el-grano.png" class="imgh" alt="Chocolate delicioso">
+        </div>
+</div>
+
+
+    <section class="container-fluid p-0">
+        <div class="row custom-sectionx">
+        <!-- Imagen a la izquierda -->
+        <div class="col-md-6 p-0">
+            <img src="../multimedia/panna-cotta-guinda.jpeg" id="imgkk" alt="Tarta de pastelería" class="img-fluid">
+        </div>
+        <!-- Texto a la derecha -->
+        <div class="col-md-6 custom-text d-flex flex-column justify-content-center">
+            <h2 class="fw-bold" id="hk">Te esperamos en nuestro rincón de pastelería para que disfrutes de un momento especial.</h2>
+            <p class="p2">Disfrutar de los productos de pastelería es un privilegio que compartimos con quienes nos visitan en Bariloche.</p>
+        </div>
+        </div>
+
+    </section>
+
+
+    .custom-section {
+        background-color: $color1; /* Color de fondo */
+        height: 700px;
+        color: white; /* Color del texto */
+        padding: 3rem 1rem; /* Espaciado interno */
+        width: 100vw;
+        overflow: hidden; /* Evitar desbordes */
+    }
+    
+    .custom-section img {
+        max-width: 100%; /* Imagen responsiva */
+        height: 400px; /* Mantener proporción */
+        overflow: hidden;
+        display: block; /* Eliminar espacios blancos inesperados */
+    }
+    
+    .text-container {
+        flex: 1; /* El texto ocupa un espacio igual */
+    }
+    
+    .image-container {
+        flex: 1; /* La imagen ocupa un espacio igual */
+        text-align: center; /* Centra la imagen dentro de su contenedor */
+    }
+    
+    @media (max-width: 768px) {
+        .custom-section {
+          flex-direction: column; /* En pantallas pequeñas, apilar contenido */
+        }
+    }
+    
+    #hk{
+        color: $color4;
+        text-align: center;
+    }
+    
+    .hl{
+        color: $color4;
+        text-align: center;
+    }
+    
+    /* ------------------------------texto-cacao------------------------------------ */
+    
+    /* #3a2000 */
+    
+    .banner{
+        background-color: #3b2000; /* Color de fondo marrón */
+        color: #ff914d; /* Color del texto */
+        text-align: center; /* Centrado horizontal del texto */
+        padding: 1rem 0; /* Espaciado vertical */
+    }
+    
+    .banner .h2e {
+        font-size: 2rem; /* Tamaño del texto */
+        font-weight: bold; /* Texto en negrita */
+        margin: 0; /* Elimina márgenes extra */
+    }
+    
+    @media (max-width: 768px) {
+        .banner .h2e {
+          font-size: 1.5rem; /* Reduce tamaño del texto en pantallas pequeñas */
+        }
+    }
+    
+    /* -------------------------------------cacao-fino------------------------------------------ */
+    
+    .custom-sectioon{
+        background-color: #593100; /* Color de fondo */
+        height: 500px;
+        padding: 3rem 1rem; /* Espaciado interno */
+        width: 100vw;
+        overflow: hidden; /* Evitar desbordes */
+    }
+    
+    .custom-sectioon .imgh{
+        max-width: 100%; /* Imagen responsiva */
+        height: 400px; /* Mantener proporción */
+        overflow: hidden;
+        display: block; /* Eliminar espacios blancos inesperados */
+    }
+    
+    /* -----------------------------------------panna-cotta------------------------------------------ */
+    
+    .custom-sectionx {
+        background-color: $color3; /* Color de fondo púrpura */
+        height: 600px;
+        color: white; /* Color del texto */
+        display: flex; /* Flexbox para alinear el contenido */
+        width: 100vw;
+        align-items: center; /* Centrado vertical */
+        padding: 2rem 0; /* Espaciado vertical */
+    }
+    
+    .custom-sectionx #imgkk {
+        max-width: 480px; /* Imagen ocupa el 100% del ancho de su contenedor */
+        height: 530px; /* Mantiene la proporción */
+        object-fit: cover; /* Recorta la imagen si es necesario */
+    }
+    
+    .custom-text {
+        padding: 2rem; /* Espaciado interno del texto */
+        flex: 1;
+    }
+    
+    @media (max-width: 768px) {
+    .custom-text {
+         text-align: center; /* Centrar texto en pantallas pequeñas */
+        padding: 1rem;
+        }
+    }
+    
+    .p2{
+        color: $color4;
+    }
+
+    <h2 class="h22">
+        Amamos lo que Hacemos
+    </h2>
+    <p class="p3">
+        En Truffa de Amor tenemos la convicción de querer hacer el mejor chocolate del mundo 
+        y para eso elegimos los mejores ingredientes, damos especial cuidado a cada paso 
+        del proceso y creamos nuevos productos para que nos sigas eligiendo.
+    </p>
+
+    <img src="../multimedia/choco-relleno-frambu.png" class="img-fram" alt="">
+
+
+
+    
+
+    <div class="wrapper">
+
+        <img src="../multimedia/choco-relleno-frambu.png" class="img-fram" alt="">
+        <div>
+            <h2 class="h22">Amamos lo que Hacemos</h2>
+            <p class="p4">En Truffa de Amor tenemos la convicción de querer hacer el mejor chocolate del mundo 
+                y para eso elegimos los mejores ingredientes, damos especial cuidado a cada paso 
+                del proceso y creamos nuevos productos para que nos sigas eligiendo.</p>
+        </div>
+    </div>
+
+
+
+    <div class="fram-cho row g-0">
+        <div class="container mt-4">
+            <div class="row g-0 align-items-center">
+
+                <!-- Columna de la imagen -->
+                <div class="col-12 col-md-4 image-area p-0">
+                    <img src="../multimedia/choco-relleno-frambu.png" id="img-fram" alt="Imagen de Menta" class="img-fluid">
+                </div>
+                
+                <!-- Columna del texto -->
+                <div class="col-12 col-md-8 text-area">
+                    <h2 id="h22" class="fw-bold">Amamos lo que Hacemos</h2>
+                    <p class="p4">
+                        En Truffa de Amor tenemos la convicción de querer hacer el mejor chocolate del mundo 
+                        y para eso elegimos los mejores ingredientes, damos especial cuidado a cada paso 
+                        del proceso y creamos nuevos productos para que nos sigas eligiendo.
+                    </p>
+                </div>
+                </div>
+            </div>
+    </div>

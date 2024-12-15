@@ -1156,59 +1156,58 @@ h6 {
 }
 
 /* --------------------------------------------quienes somos------------------------------------------ */
+/* .casa{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $fuente1;
+    min-height: 100vh;
+}
+
+
+.h22{
+    color: $color4;
+}
+
+.p4{
+    color: $color4;
+} */
 .casa {
-  margin: 0;
   padding: 0;
-  overflow-x: hidden;
-  width: 100vw;
+  margin: 0;
 }
 
-.container-fluid {
-  width: 100vw;
+.fram-cho {
+  background-color: #7019fc;
 }
 
-.custom-section {
-  background-color: #c10049; /* Color de fondo */
-  height: 700px;
-  color: white; /* Color del texto */
-  padding: 3rem 1rem; /* Espaciado interno */
-  width: 100vw;
-  overflow: hidden; /* Evitar desbordes */
+.text-area {
+  padding: 1.5rem;
 }
 
-.custom-section img {
-  max-width: 100%; /* Imagen responsiva */
-  height: 400px; /* Mantener proporción */
-  overflow: hidden;
-  display: block; /* Eliminar espacios blancos inesperados */
+.image-area {
+  height: 300px;
+  width: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
-.text-container {
-  flex: 1; /* El texto ocupa un espacio igual */
-}
-
-.image-container {
-  flex: 1; /* La imagen ocupa un espacio igual */
-  text-align: center; /* Centra la imagen dentro de su contenedor */
-}
-
-@media (max-width: 768px) {
-  .custom-section {
-    flex-direction: column; /* En pantallas pequeñas, apilar contenido */
-  }
-}
-#hk {
+/* .img-fram{
+    width: 200px;
+    height: 200px;
+} */
+#h22 {
   color: #ffffff;
-  text-align: center;
+  font-family: "Merienda", cursive;
+  font-size: 35px;
 }
 
-.hl {
+.p4 {
   color: #ffffff;
-  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
 }
 
-/* ------------------------------texto-cacao------------------------------------ */
-/* #3a2000 */
 .banner {
   background-color: #3b2000; /* Color de fondo marrón */
   color: #ff914d; /* Color del texto */
@@ -1227,51 +1226,38 @@ h6 {
     font-size: 1.5rem; /* Reduce tamaño del texto en pantallas pequeñas */
   }
 }
-/* -------------------------------------cacao-fino------------------------------------------ */
-.custom-sectioon {
-  background-color: #593100; /* Color de fondo */
-  height: 500px;
-  padding: 3rem 1rem; /* Espaciado interno */
-  width: 100vw;
-  overflow: hidden; /* Evitar desbordes */
+.grano-cho {
+  background-color: #593100;
+  height: 350px;
 }
 
-.custom-sectioon .imgh {
-  max-width: 100%; /* Imagen responsiva */
-  height: 400px; /* Mantener proporción */
-  overflow: hidden;
-  display: block; /* Eliminar espacios blancos inesperados */
-}
-
-/* -----------------------------------------panna-cotta------------------------------------------ */
-.custom-sectionx {
-  background-color: #7019fc; /* Color de fondo púrpura */
-  height: 600px;
-  color: white; /* Color del texto */
-  display: flex; /* Flexbox para alinear el contenido */
-  width: 100vw;
-  align-items: center; /* Centrado vertical */
-  padding: 2rem 0; /* Espaciado vertical */
-}
-
-.custom-sectionx #imgkk {
-  max-width: 480px; /* Imagen ocupa el 100% del ancho de su contenedor */
-  height: 530px; /* Mantiene la proporción */
+.img-gran {
+  height: 280px;
+  width: 380px;
   -o-object-fit: cover;
-     object-fit: cover; /* Recorta la imagen si es necesario */
+     object-fit: cover;
 }
 
-.custom-text {
-  padding: 2rem; /* Espaciado interno del texto */
-  flex: 1;
+.panna-cho {
+  background-color: #7019fc;
+  height: 500px;
 }
 
-@media (max-width: 768px) {
-  .custom-text {
-    text-align: center; /* Centrar texto en pantallas pequeñas */
-    padding: 1rem;
-  }
+.aran-cho {
+  height: 400px;
+  width: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
-.p2 {
-  color: #ffffff;
+
+.cono-choco {
+  height: 300px;
+  width: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.cono-cho {
+  background-color: #c10049;
+  height: 480px;
 }/*# sourceMappingURL=estilos.css.map */

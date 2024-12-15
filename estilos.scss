@@ -1181,61 +1181,57 @@ h6{
 
 /* --------------------------------------------quienes somos------------------------------------------ */
 
-.casa{
+/* .casa{
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
-    width: 100vw;
+    box-sizing: border-box;
+    font-family: $fuente1;
+    min-height: 100vh;
 }
 
-.container-fluid{
-    width: 100vw;
-}
 
-.custom-section {
-    background-color: $color1; /* Color de fondo */
-    height: 700px;
-    color: white; /* Color del texto */
-    padding: 3rem 1rem; /* Espaciado interno */
-    width: 100vw;
-    overflow: hidden; /* Evitar desbordes */
-}
-
-.custom-section img {
-    max-width: 100%; /* Imagen responsiva */
-    height: 400px; /* Mantener proporción */
-    overflow: hidden;
-    display: block; /* Eliminar espacios blancos inesperados */
-}
-
-.text-container {
-    flex: 1; /* El texto ocupa un espacio igual */
-}
-
-.image-container {
-    flex: 1; /* La imagen ocupa un espacio igual */
-    text-align: center; /* Centra la imagen dentro de su contenedor */
-}
-
-@media (max-width: 768px) {
-    .custom-section {
-      flex-direction: column; /* En pantallas pequeñas, apilar contenido */
-    }
-}
-
-#hk{
+.h22{
     color: $color4;
-    text-align: center;
 }
 
-.hl{
+.p4{
     color: $color4;
-    text-align: center;
+} */
+
+.casa{
+    padding: 0;
+    margin: 0;
 }
 
-/* ------------------------------texto-cacao------------------------------------ */
+.fram-cho{
+    background-color: #7019fc;
+}
 
-/* #3a2000 */
+.text-area {
+    padding: 1.5rem;
+}
+.image-area{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+
+/* .img-fram{
+    width: 200px;
+    height: 200px;
+} */
+
+#h22{
+    color: $color4;
+    font-family: $fuente2;
+    font-size: 35px;
+}
+
+.p4{
+    color: $color4;
+    font-family: $fuente1;
+    font-size: 20px;
+}
 
 .banner{
     background-color: #3b2000; /* Color de fondo marrón */
@@ -1256,53 +1252,35 @@ h6{
     }
 }
 
-/* -------------------------------------cacao-fino------------------------------------------ */
+.grano-cho{
+    background-color: $color5;
+    height: 350px;
+}
 
-.custom-sectioon{
-    background-color: #593100; /* Color de fondo */
+.img-gran{
+    height: 280px;
+    width: 380px;
+    object-fit: cover;
+}
+
+.panna-cho{
+    background-color: $color3;
     height: 500px;
-    padding: 3rem 1rem; /* Espaciado interno */
-    width: 100vw;
-    overflow: hidden; /* Evitar desbordes */
 }
 
-.custom-sectioon .imgh{
-    max-width: 100%; /* Imagen responsiva */
-    height: 400px; /* Mantener proporción */
-    overflow: hidden;
-    display: block; /* Eliminar espacios blancos inesperados */
+.aran-cho{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
 }
 
-/* -----------------------------------------panna-cotta------------------------------------------ */
-
-.custom-sectionx {
-    background-color: $color3; /* Color de fondo púrpura */
-    height: 600px;
-    color: white; /* Color del texto */
-    display: flex; /* Flexbox para alinear el contenido */
-    width: 100vw;
-    align-items: center; /* Centrado vertical */
-    padding: 2rem 0; /* Espaciado vertical */
+.cono-choco{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
 }
 
-.custom-sectionx #imgkk {
-    max-width: 480px; /* Imagen ocupa el 100% del ancho de su contenedor */
-    height: 530px; /* Mantiene la proporción */
-    object-fit: cover; /* Recorta la imagen si es necesario */
-}
-
-.custom-text {
-    padding: 2rem; /* Espaciado interno del texto */
-    flex: 1;
-}
-
-@media (max-width: 768px) {
-.custom-text {
-     text-align: center; /* Centrar texto en pantallas pequeñas */
-    padding: 1rem;
-    }
-}
-
-.p2{
-    color: $color4;
+.cono-cho{
+    background-color: $color1;
+    height: 480px;
 }
